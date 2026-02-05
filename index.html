@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>AVANT - Landing UI</title>
+
+  <!-- SEO -->
+  <meta name="description" content="">
+
+  <!-- Preconnect fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Sora:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <!-- Normalize -->
+  <link rel="stylesheet" href="css/normalize.css">
+
+  <!-- Main styles -->
+  <link rel="stylesheet" href="css/tokens.css">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/components.css">
+
+  <!-- Scripts -->
+  <script src="js/script.js" defer></script>
+</head>
+
+<body>
+  <header class="header">
+    <div class="header-inner container">
+      <!-- LEFT -->
+      <div class="header-actions">
+        <a href="#" class="btn btn-primary header-cta">
+          Sign in
+        </a>
+        <a href="#" class="btn btn-ghost">
+          Get started
+        </a>
+      </div> <!-- header actions -->
+
+      <!-- CENTER -->
+      <nav class="header-nav" aria-label="Main navigation">
+        <ul class="nav-links">
+          <li><a href="#overview">Overview</a></li>
+          <li><a href="#principles">Principles</a></li>
+          <li><a href="#components">Components</a></li>
+          <li><a href="#guidelines">Guidelines</a></li>
+        </ul> <!-- nav links -->
+      </nav> <!-- header nav -->
+
+      <!-- RIGHT -->
+      <div class="header-right">
+        <span class="brand">AVANT<br>Landing UI</span>
+      </div> 
+    </div> <!-- header inner -->
+  </header>
+
+  <main>
+    <section class="hero" id="overview">
+      <div class="container hero-inner">
+        <span class="hero-kicker">Design system
+        </span>
+
+        <h1 class="hero-title">
+          A clean foundation<br/>for modern UI
+        </h1>
+
+        <p class="hero-text">
+          A minimal, token-based UI system designed to help you build
+          consistent, scalable interfaces without friction.
+        </p>
+
+        <div class="hero-actions">
+          <a href="#" class="btn btn-primary">Get Started</a>
+          <a href="#" class="btn btn-ghost">View components</a>
+        </div>
+      </div>
+    </section> <!-- hero -->
+
+    <!-- FEATURES -->
+    <section class="features" id="principles">
+      <div class="container">
+        <header class="features-header">
+          <h2 class="features-title">Built for clarity and reuse</h2>
+          <p class="features-text">
+            AVANT focuses on structure, consistency, and long-term maintainability.
+          </p>
+        </header> <!-- header features -->
+
+        <div class="features-grid">
+          <div class="feature">
+            <h3 class="feature-title">Token-based</h3>
+            <p class="feature-text">
+              Colors, spacing, and tipography are driven by design tokens for predictable scaling.
+            </p>
+          </div> <!-- feature #1-->
+
+          <div class="feature">
+            <h3 class="feature-title">Minimal by default</h3>
+            <p class="feature-text">
+              No visual noise. Components are neutral and adapt to your product.
+            </p>
+          </div> <!-- feature #2 -->
+
+          <div class="feature">
+            <h3 class="feature-title">System-first</h3>
+            <p class="feature-text">
+              Every decision prioritizes consistency over one-off solution.
+            </p>
+          </div> <!-- feature #3 -->
+        </div> <!-- feature grid-->
+      </div><!-- container --> 
+    </section> <!-- features -->
+
+    <!-- COMPONENTS -->
+    <section class="components" id="componentes">
+      <div class="container">
+
+        <!-- Header -->
+        <header class="components-header">
+          <h2 class="components-title">Core components</h2>
+          <p class="components-text">
+              A minimal set of foundational UI elements designed for consistency and reuse across interfaces.
+          </p>
+        </header> <!-- components header -->
+
+        <div class="components-grid">
+
+          <!-- Component: Buttons -->
+          <article class="component">
+            <span class="component-label">Buttons</span>
+
+            <div class="component-demo">
+              <button class="btn btn-primary">Primary</button>
+            </div>
+
+            <div class="component-demo">
+              <button class="btn btn-ghost">Ghost</button>
+            </div>
+          </article> <!-- buttons -->
+
+          <!-- Component: Input -->
+          <article class="component">
+            <span class="component-label">Input</span>
+
+            <div class="component-demo">
+              <input type="text" placeholder="Enter text" class="input">
+            </div>
+          </article> <!-- input -->
+
+          <!-- Component: Card -->
+          <article class="component">
+            <span class="component-label">Cards</span>
+
+            <div class="component-demo">
+              <div class="card">
+                <strong>Card title</strong>
+                <p>Surface container for grouped content.</p>
+              </div>
+            </div>
+          </article> <!-- card -->
+        </div> <!-- components grid -->
+      </div> <!-- container -->
+    </section> <!-- components -->
+  </main>
+</body>
+</html>
