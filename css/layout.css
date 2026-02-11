@@ -224,6 +224,53 @@
 }
 
 /* =====================================================
+   PRINCIPLES
+===================================================== */
+.principles {
+  background: var(--bg-surface);
+  padding-block: calc(var(--space-2xl) + var(--space-lg));
+}
+
+/* Header */
+.principles-header {
+  min-width: 52ch;
+  margin-bottom: var(--space-2xl);
+}
+
+.principles-title {
+  font-family: var(--font-heading);
+  font-size: var(--font-size-xl);
+  line-height: var(--line-height-tight);
+  color: var(--text-primary);
+  margin-bottom: var(--space-xs);
+}
+
+.principles-text {
+  color: var(--text-secondary);
+  max-width: 60ch;
+}
+
+/* Grid */
+.principles-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--space-xl);
+}
+
+/* Block */
+.principle {
+  padding-top: var(--space-sm);
+}
+
+.principle-title {
+  font-family: var(--font-heading);
+  font-size: var(--font-size-lg);
+  line-height: var(--line-height-tight);
+  color: var(--text-primary);
+  
+}
+
+/* =====================================================
    COMPONENTS
 ===================================================== */
   .components {
